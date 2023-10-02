@@ -1,0 +1,14 @@
+# Tests the distribution deployment on a local machine.
+
+version: '3.6'
+
+services:
+  surrealdb:
+    image: surrealdb/surrealdb:latest
+    container_name: surrealdb
+    restart: always
+    command: start -A --auth --user root --pass pass file:/data/database
+    ports:
+      - 8000:8000
+    volumes:
+      - ./data:/data
