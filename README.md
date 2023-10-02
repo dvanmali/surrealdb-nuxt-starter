@@ -10,7 +10,7 @@ Make sure to install the dependencies (this example uses pnpm). Specifically, we
 pnpm install
 ```
 
-This tutorial assumes a SurrealDB server is running on `http://localhost:8000/rpc`. We used Docker, but feel free to use another [installation method](https://surrealdb.com/docs/installation).
+This tutorial assumes a SurrealDB server is running on `http://localhost:8000`. We used Docker, but feel free to use another [installation method](https://surrealdb.com/docs/installation).
 
 ```bash
 docker-compose up -d
