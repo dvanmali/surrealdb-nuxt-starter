@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "clean": "nuxt cleanup",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "h3": "^1.8.2",
+    "nuxt": "^3.7.4",
+    "surrealdb.js": "^0.9.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  }
+}
