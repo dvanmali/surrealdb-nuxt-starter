@@ -6,10 +6,10 @@ export default defineNuxtConfig({
   runtimeConfig: {
     // Surreal
     surrealUrl: 'http://localhost:8000/rpc',
-    surrealUser: 'root',
-    surrealPass: 'pass',
-    // surrealNS: 'ns',
-    // surrealDB: 'db',
-    // surrealSC: 'sc',
+    surrealUsername: 'root',
+    surrealPassword: 'pass',
+    surrealNamespace: '',
+    surrealDatabase: '',
+    surrealScope: '',
   }
 })

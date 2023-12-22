@@ -9,7 +9,7 @@ export default defineEventHandler<any>(async (event: H3Event) => {
   try {
     const [res] = await surrealdb.query(helloWorldQuery)
     console.log('Server:', res)
-    return res.result
+    return res
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error(error as unknown as string)
