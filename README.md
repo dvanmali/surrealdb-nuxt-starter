@@ -35,7 +35,10 @@ pnpm run dev
 
 Visit [`localhost:3000`](http://localhost:3000), to see the response printed on the server and browser:
 
-![Run Dev](./assets/run-dev-response.png)
+```text
+Server: Hello World From SurrealDB
+```
+<!-- ![Run Dev](./assets/run-dev-response.png) -->
 ![Run Dev](./assets/browser-ui.png)
 
 ## Under the code
