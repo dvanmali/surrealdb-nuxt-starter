@@ -1,6 +1,6 @@
 {
   "name": "nuxt-app",
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -12,10 +12,11 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "h3": "^1.9.0",
-    "nuxt": "^3.8.2",
-    "surrealdb.js": "^0.11.0",
-    "vue": "^3.3.13",
-    "vue-router": "^4.2.5"
-  }
+    "h3": "^1.11.1",
+    "nuxt": "^3.11.2",
+    "surrealdb.js": "1.0.0-beta.5",
+    "vue": "^3.4.25",
+    "vue-router": "^4.3.2"
+  },
+  "packageManager": "pnpm@8.8.0+sha1.9922e8b650d393700209ccd81e0ebdbcbe43b0d3"
 }

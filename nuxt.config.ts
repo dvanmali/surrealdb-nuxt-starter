@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   // variables can be overridden see https://nuxt.com/docs/guide/going-further/runtime-config#environment-variables
   runtimeConfig: {
     // Surreal
-    surrealUrl: 'http://localhost:8000/rpc',
+    surrealUrl: 'ws://localhost:8000',
     surrealUsername: 'root',
     surrealPassword: 'pass',
     surrealNamespace: '',
