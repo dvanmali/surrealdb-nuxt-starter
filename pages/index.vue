@@ -1,19 +1,22 @@
 <template>
   <div>
-    <h1 v-if="pending">
-      {{ pending }}
+    <h1>
+      Server Fetch
     </h1>
-    <h1 v-else-if="error">
+    <h2 v-if="status === 'pending' || status === 'idle'">
+      {{ status }}
+    </h2>
+    <h2 v-else-if="error">
       {{ error }}
-    </h1>
-    <h1 v-else>
+    </h2>
+    <h2 v-else>
       {{ data }}
-    </h1>
+    </h2>
   </div>
 </template>
 
 <script lang="ts" setup>
-const { data, pending, error } = useLazyFetch('/api/hello-world')
+const { data, status, error } = useLazyFetch('/api/hello-world')
 </script>
 
 <style></style>
