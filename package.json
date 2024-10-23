@@ -1,7 +1,8 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "surrealdb-nuxt-starter",
+  "private": false,
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "build": "nuxt build",
     "clean": "nuxt cleanup",
@@ -12,10 +13,11 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "h3": "^1.9.0",
-    "nuxt": "^3.8.2",
-    "surrealdb.js": "^0.11.0",
-    "vue": "^3.3.13",
-    "vue-router": "^4.2.5"
-  }
+    "h3": "^1.13.0",
+    "nuxt": "^3.13.2",
+    "surrealdb": "^1.0.6",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
 }
