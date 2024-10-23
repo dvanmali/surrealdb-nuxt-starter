@@ -9,9 +9,6 @@
     </p>
 
     <div v-if="!!token">
-      <h2>
-        {{ clientResult }}
-      </h2>
       <h2 style="overflow-wrap: anywhere;">
         {{ userResult }}
       </h2>
